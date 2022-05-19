@@ -1,0 +1,115 @@
+header{
+    background-color: #212176;
+    padding: 20px 0;
+}
+
+.header--photo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header--perfil-photo{
+    width: 110px;
+    height: 110px;
+}
+
+.header--perfil-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header--role p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.header--social-list{
+    display: flex;
+    justify-content: center;
+}
+
+.header--social-list li{
+    list-style: none;
+    padding: 0px 5px;
+}
+
+.header--social-link img{
+    width: 15px;
+    height: 15px;
+}
+
+.header--menu-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 30px;
+}
+
+.header--menu-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.header--menu-icon-desactive{
+    display: none;
+}
+
+.header--menu-icon img:hover{
+    cursor: pointer;
+    opacity: .3;
+}
+
+.header--nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212176;
+    transition: ease-in-out .3s;
+    transform: translateX(100%);
+}
+
+.header--nav-active{
+    transform: translateX(0);
+}
+
+.header--close-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 30px;
+}
+
+.header--close-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.header--close-icon img:hover{
+    cursor: pointer;
+    opacity: .3;
+}
+
+.header--nav-list{
+    list-style: none;
+    padding: 15px 15px;
+}
+
+.header--nav-list a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.header--nav-list a:hover{
+    cursor: pointer;
+    box-shadow: 2px 0 4px black;
+}
